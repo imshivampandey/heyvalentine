@@ -1,5 +1,5 @@
 /* Typing Animation */
-const text = "Will you be my Valentine?";
+const text = "Will you be my Valentine Dipoo?";
 let index = 0;
 const typingEl = document.getElementById("typingText");
 
@@ -23,7 +23,7 @@ yesBtn.addEventListener("click", () => {
   if (scale > 1.8) {
     document.querySelector(".container").innerHTML = `
       <h1>YAYYYY!! 💘🥹</h1>
-      <p>You just made me the happiest person ever ❤️</p>
+      <p>You just made me the happiest person ever since FEBRUARY 2023❤️</p>
     `;
   }
 });
@@ -51,5 +51,6 @@ function createHeart() {
 
   setTimeout(() => heart.remove(), 6000);
 }
+
 
 setInterval(createHeart, 350);
